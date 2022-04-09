@@ -6,7 +6,9 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/features",
+@CucumberOptions(
+		plugin = {"html:target/html-cucumber"},
+		features = "src/test/java/features",
 		 tags= {"@Sanity"},
 		 		// to run only Sanity
 
