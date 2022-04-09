@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-09T07:18:42.637Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1941522600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.Setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the successful login using Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login-using-testdata",
+        "after": [
+          {
+            "result": {
+              "duration": 753568300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6285436900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "Loginsteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5716194400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginsteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 612147500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username \"mejoeljohny12@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mejoeljohny12@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603448700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the password \"Aneesh@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aneesh@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11954833400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Loginsteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001066300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be Landed on the Home Page",
+            "match": {
+              "location": "Loginsteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T07:19:12.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1226437100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.Setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate the Negative login using Testdata",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-negative-login-using-testdata",
+        "after": [
+          {
+            "result": {
+              "duration": 721749900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6248367800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "Loginsteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5442709400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginsteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 679407100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the username \"negative@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"negative@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603176300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the password \"Pa$$word@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pa$$word@123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8451374700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Loginsteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559256700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Loginsteps.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the Application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
